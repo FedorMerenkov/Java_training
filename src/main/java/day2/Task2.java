@@ -11,25 +11,22 @@ public class Task2 {
         int min = 0;
         int max = 0;
         String d = "";
-        if (a < b){
+        if (a < b) {
             min = a;
             max = b;
-        }
-        else if(b < a){
+        } else if (b < a) {
             min = b;
             max = a;
-        }
-        else{
+        } else {
             System.out.println("Длина диопазона 0");
         }
         if (c < 0) {
             c = -c;
         }
-        for (int i = 0;i < c; min++, i++){
-            if (min < max && min % 5 == 0 && min % 10 != 0){
+        for (int i = 0; i < c; min++, i++) {
+            if (min < max && min % 5 == 0 && min % 10 != 0) {
                 d += min + " ";
             }
-
         }
         System.out.print(d);
     }

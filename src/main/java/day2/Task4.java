@@ -7,13 +7,11 @@ public class Task4 {
         Scanner s = new Scanner(System.in);
         double x = s.nextInt();
         double y;
-        if (x >= 5){
+        if (x >= 5) {
             y = (Math.pow(x, 2) - 10) / (x + 7);
-        }
-        else if (x > -3 && x < 5 ) {
+        } else if (x > -3 && x < 5) {
             y = (x + 3) * (Math.pow(x, 2) - 2);
-        }
-        else {
+        } else {
             y = 420;
         }
         System.out.println(y);

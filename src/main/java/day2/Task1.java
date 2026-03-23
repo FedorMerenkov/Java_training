@@ -6,10 +6,10 @@ public class Task1 {
     public static void main(String[] args) {
             Scanner s = new Scanner(System.in);
             int a = Integer.parseInt(s.nextLine());
-            if (a>=1 && a <=4 ){
+            if (a >= 1 && a <= 4 ){
                 System.out.println("Малоэтажный дом");
             }
-            else if (a > 4 && a <=8 ) {
+            else if (a > 4 && a <= 8 ) {
                 System.out.println("Среднеэтажный дом");
             }
             else if(a > 8){

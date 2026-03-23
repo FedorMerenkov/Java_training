@@ -12,24 +12,22 @@ public class Task3 {
         int max = 0;
         int i = 0;
         String d = "";
-        if (a < b){
+        if (a < b) {
             min = a;
             max = b;
-        }
-        else if(b < a){
+        } else if (b < a) {
             min = b;
             max = a;
-        }
-        else{
+        } else {
             System.out.println("Длина диопазона 0");
         }
         if (c < 0) {
             c = -c;
         }
-        while (i < c){
+        while (i < c) {
             min++;
             i++;
-            if (min < max && min % 5 == 0 && min % 10 != 0){
+            if (min < max && min % 5 == 0 && min % 10 != 0) {
                 d += min + " ";
             }
         }
