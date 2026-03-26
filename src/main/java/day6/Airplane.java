@@ -16,15 +16,19 @@ public class Airplane {
     }
 
     public void info() {
-        System.out.println("Изготовитель: " + producer + ", год выпуска: " + year + ", длина: " + length + ", вес: " + weight + ", количество топлива в баке: " + fuel);
+        System.out.println(
+                "Изготовитель: " + producer + ", год выпуска: " + year
+                        + ", длина: " + length + ", вес: " + weight
+                        + ", количество топлива в баке: " + fuel
+        );
     }
 
     public int getFuel() {
         return fuel;
     }
 
-    public void fillUp(int x) {
-        fuel += x;
+    public void fillUp(int fuelUp) {
+        fuel += fuelUp;
     }
 
     public void setFuel(int fuel) {

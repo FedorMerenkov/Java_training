@@ -1,16 +1,17 @@
 package day6;
 
 public class Student {
-    String Name;
-    public Student(String name){
+    String name;
 
+    public Student(String name) {
+        this.name = name;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 }

@@ -6,8 +6,6 @@ public class Car {
     int year;
     String color;
     String model;
-    int x;
-    int y;
 
     public void setYear(int yearCar) {
         year = yearCar;
@@ -37,8 +35,8 @@ public class Car {
         System.out.println("Это автомобиль");
     }
 
-    public int yearDifference(int y) {
-        return Math.abs(year - y);
+    public int yearDifference(int year) {
+        return Math.abs(this.year - year);
     }
 
 

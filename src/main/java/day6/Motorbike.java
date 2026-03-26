@@ -6,8 +6,6 @@ public class Motorbike {
     int year;
     String color;
     String model;
-    int x;
-    int y;
 
     public Motorbike(String color, String model, int year) {
         this.color = color;
@@ -31,8 +29,8 @@ public class Motorbike {
         System.out.println("Это мотоцикл");
     }
 
-    public int yearDifference(int y) {
-        return Math.abs(year - y);
+    public int yearDifference(int year) {
+        return Math.abs(this.year - year);
     }
 
 }
