@@ -27,8 +27,8 @@ public class Airplane {
         return fuel;
     }
 
-    public void fillUp(int fuelUp) {
-        fuel += fuelUp;
+    public void fillUp(int fuelAmount) {
+        fuel += fuelAmount;
     }
 
     public void setFuel(int fuel) {
