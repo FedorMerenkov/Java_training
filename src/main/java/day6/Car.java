@@ -3,40 +3,32 @@ package day6;
 import java.lang.Math;
 
 public class Car {
-    int carYear;
-    String carColor;
-    String carModel;
+    int year;
+    String color;
+    String model;
 
-    public int getCarYear() {
-        return carYear;
+    public int getYear() {
+        return year;
     }
 
-    public void setCarYear(int carYear) {
-        this.carYear = carYear;
+    public void setYear(int year) {
+        this.year = year;
     }
 
-    public String getCarColor() {
-        return carColor;
+    public String getColor() {
+        return color;
     }
 
-    public void setCarColor(String carColor) {
-        this.carColor = carColor;
-    }
-
-    public String getCarModel() {
-        return carModel;
-    }
-
-    public void setCarModel(String carModel) {
-        this.carModel = carModel;
-    }
-
-    public void setModel(String carModel) {
-        this.carModel = carModel;
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String getModel() {
-        return carModel;
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public void info() {
@@ -44,6 +36,6 @@ public class Car {
     }
 
     public int yearDifference(int year) {
-        return Math.abs(this.carYear - year);
+        return Math.abs(this.year - year);
     }
 }
