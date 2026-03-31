@@ -3,7 +3,7 @@ package day7;
 import java.util.Random;
 
 public class Player {
-    int stamina;
+    private int stamina;
     private static final int MAX_STAMINA = 100;
     private static final int MIN_STAMINA = 0;
     private static int countPlayers = 0;
@@ -11,7 +11,7 @@ public class Player {
     public Player(int stamina) {
         if (countPlayers < 6) {
             this.stamina = stamina;
-            countPlayers++;
+            this.countPlayers++;
         } else {
             return;
         }
