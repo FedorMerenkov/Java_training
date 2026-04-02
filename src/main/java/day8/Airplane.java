@@ -76,9 +76,13 @@ public class Airplane {
             System.out.println("Длины самолетов равны");
         }
     }
-    public String toString(){
-        return "Изготовитель: " + producer + ", год выпуска: " + year
-                + ", длина: " + length + ", вес: " + weight
-                + ", количество топлива в баке: " + fuel;
+
+    @Override
+    public String toString() {
+        return "Изготовитель: " + producer +
+                ", год выпуска: " + year +
+                ", длина: " + length +
+                ", вес: " + weight +
+                ", количество топлива в баке: " + fuel;
     }
 }
