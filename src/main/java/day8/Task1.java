@@ -2,16 +2,16 @@ package day8;
 
 public class Task1 {
     public static void main(String[] args) {
-//        int count = 1;
-//        StringBuilder count1 = new StringBuilder(count);
-//        for (int i = 1; i <= 20000; i++) {
-//            count1.append(i).append(" ");
-//        }
-//        System.out.println(s);
-        String count2 = " ";
+        int count = 1;
+        StringBuilder countStringBuilder = new StringBuilder(count);
         for (int i = 1; i <= 20000; i++) {
-            count2 += i + " ";
+            countStringBuilder.append(i).append(" ");
         }
-        System.out.println(count2);
+        System.out.println(countStringBuilder);
+        String countString = " ";
+        for (int i = 1; i <= 20000; i++) {
+            countString += i + " ";
+        }
+        System.out.println(countString);
     }
 }
