@@ -4,11 +4,11 @@ import java.util.Objects;
 
 public class Circle extends Figure {
 
-    final private int r;
+    private final int r;
 
-    public Circle(int R, String color) {
+    public Circle(int r, String color) {
         super(color);
-        this.r = R;
+        this.r = r;
     }
 
     @Override
