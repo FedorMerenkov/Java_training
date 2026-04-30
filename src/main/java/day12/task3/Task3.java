@@ -6,16 +6,16 @@ import java.util.List;
 
 public class Task3 {
     public static void main(String[] args) {
-        MusicBand musicBand1 = new MusicBand(" 1",2000);
-        MusicBand musicBand2 = new MusicBand(" 2",2000);
-        MusicBand musicBand3 = new MusicBand(" 3",2000);
-        MusicBand musicBand4 = new MusicBand(" 4",2000);
-        MusicBand musicBand5 = new MusicBand(" 5",2000);
-        MusicBand musicBand6 = new MusicBand(" 6",2000);
-        MusicBand musicBand7 = new MusicBand("772",2000);
-        MusicBand musicBand8 = new MusicBand(" 8",2000);
-        MusicBand musicBand9 = new MusicBand(" 9",2000);
-        MusicBand musicBand10 = new MusicBand(" 102",2000);
+        MusicBand musicBand1 = new MusicBand(" 1", 2000);
+        MusicBand musicBand2 = new MusicBand(" 2", 2000);
+        MusicBand musicBand3 = new MusicBand(" 3", 2000);
+        MusicBand musicBand4 = new MusicBand(" 4", 2000);
+        MusicBand musicBand5 = new MusicBand(" 5", 2000);
+        MusicBand musicBand6 = new MusicBand(" 6", 2000);
+        MusicBand musicBand7 = new MusicBand("772", 2000);
+        MusicBand musicBand8 = new MusicBand(" 8", 2000);
+        MusicBand musicBand9 = new MusicBand(" 9", 2000);
+        MusicBand musicBand10 = new MusicBand(" 102", 2000);
         List<MusicBand> bands = new ArrayList<>();
         bands.add(musicBand1);
         bands.add(musicBand2);
@@ -31,7 +31,8 @@ public class Task3 {
         List<MusicBand> result = groupsAfter2000(bands);
         System.out.println(result);
     }
-    public static List<MusicBand> groupsAfter2000 (List<MusicBand>bands) {
+
+    public static List<MusicBand> groupsAfter2000(List<MusicBand> bands) {
         List<MusicBand> result = new ArrayList<>();
         for (MusicBand band : bands) {
             if (band.getYear() > 2000) {

@@ -12,20 +12,20 @@ public class Task5 {
         members1.add(new MusicArtist("OGD", 50));
         members1.add(new MusicArtist("OGI", 40));
 
-        MusicBand band1 = new MusicBand("MJ",1959,members1);
+        MusicBand band1 = new MusicBand("MJ", 1959, members1);
 
-        List <MusicArtist> members2 = new ArrayList<>();
+        List<MusicArtist> members2 = new ArrayList<>();
         members2.add(new MusicArtist("OGa", 70));
         members2.add(new MusicArtist("OGb", 80));
         members2.add(new MusicArtist("OGc", 90));
         members2.add(new MusicArtist("OGd", 30));
         members2.add(new MusicArtist("OGe", 20));
 
-        MusicBand band2 = new MusicBand("GlOC", 1960,members2);
+        MusicBand band2 = new MusicBand("GlOC", 1960, members2);
 
         band1.printMembers();
         band2.printMembers();
-        MusicBand.transferMembers(band1,band2);
+        MusicBand.transferMembers(band1, band2);
         band1.printMembers();
         band2.printMembers();
     }

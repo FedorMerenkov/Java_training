@@ -14,9 +14,9 @@ public class MusicBand {
     }
 
     public static void transferMembers(MusicBand a, MusicBand b) {
-        for (MusicArtist member : a.getMembers())
+        for (MusicArtist member : a.getMembers()) {
             b.getMembers().add(member);
-
+        }
         a.getMembers().clear();
     }
 
