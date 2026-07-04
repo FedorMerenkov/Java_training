@@ -1,10 +1,10 @@
 package day17;
 
 public class ChessBoard {
-    private ChessPiece [][]chessBoard;
+    private ChessPiece[][] chessBoard;
 
-    public ChessBoard(ChessPiece[][] chessBoard){
-        this.chessBoard =  chessBoard;
+    public ChessBoard(ChessPiece[][] chessBoard) {
+        this.chessBoard = chessBoard;
     }
 
     public void print() {

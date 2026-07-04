@@ -7,8 +7,8 @@ public class Task1 {
                 ChessPiece.PAWN_WHITE, ChessPiece.PAWN_WHITE, ChessPiece.PAWN_WHITE, ChessPiece.PAWN_WHITE,
                 ChessPiece.ROOK_BLACK, ChessPiece.ROOK_BLACK, ChessPiece.ROOK_BLACK, ChessPiece.ROOK_BLACK
         };
-        for (ChessPiece chessPiece: pieces) {
-            System.out.print(chessPiece.getRepresentation()+ " ");
+        for (ChessPiece chessPiece : pieces) {
+            System.out.print(chessPiece.getRepresentation() + " ");
         }
     }
 }
